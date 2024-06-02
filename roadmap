@@ -1,0 +1,155 @@
+Week 1: Setting Up the Foundations
+Day 1: Review and Setup
+
+Review your existing knowledge of Git, CI/CD, and infrastructure automation tools.
+Set up your AWS account and IAM roles for automation.
+Install necessary tools: AWS CLI, Terraform, kubectl, Docker, Helm, and ArgoCD CLI.
+Day 2: Setting Up Git and GitHub
+
+Create a GitHub repository for your project.
+Set up SSH keys for secure access.
+Understand and configure GitHub Actions basics for CI/CD.
+Day 3: Basic AWS Infrastructure with Terraform
+
+Write Terraform configurations for VPC setup.
+Create subnets, route tables, and internet gateways.
+Test and validate your VPC setup.
+Day 4: Advanced VPC Configuration
+
+Configure NAT gateways and security groups.
+Set up private and public subnets.
+Ensure best practices for VPC security and high availability.
+Day 5: Setting Up EKS Cluster
+
+Write Terraform configurations for EKS cluster setup.
+Configure EKS with proper node groups.
+Use eksctl for quick setup and comparison.
+Day 6: Configuring kubectl and IAM for EKS
+
+Install and configure kubectl for EKS.
+Set up AWS IAM roles for Kubernetes.
+Manage kubeconfig for EKS cluster access.
+Day 7: ArgoCD Introduction and Setup
+
+Learn about ArgoCD and its features.
+Install ArgoCD in your EKS cluster.
+Access ArgoCD UI and configure basic settings.
+Week 2: Automating Infrastructure with Terraform
+Day 8: Automating VPC with Terraform Modules
+
+Refactor your VPC code into reusable Terraform modules.
+Validate and test the modular approach.
+Document your modules for reusability.
+Day 9: Automating EKS with Terraform Modules
+
+Refactor EKS setup into Terraform modules.
+Manage node groups and scaling policies.
+Validate and test EKS cluster setup.
+Day 10: Terraform State Management
+
+Understand Terraform state and remote state management.
+Configure remote state backend with S3 and DynamoDB for locking.
+Test state management with your Terraform configuration.
+Day 11: CI/CD with GitHub Actions
+
+Set up GitHub Actions workflows for Terraform.
+Configure workflows for plan and apply stages.
+Secure GitHub Actions with secrets and environment variables.
+Day 12: Deploying Applications on EKS
+
+Write Kubernetes manifests for a sample application (e.g., Nginx).
+Use kubectl to deploy and manage your application on EKS.
+Expose your application using Kubernetes services (LoadBalancer, Ingress).
+Day 13: Introduction to Helm
+
+Learn about Helm and its uses in Kubernetes.
+Install Helm and create a Helm chart for your sample application.
+Deploy and manage your application using Helm.
+Day 14: Advanced Helm Usage
+
+Customize Helm charts with values files.
+Manage dependencies with Helm.
+Explore Helm best practices.
+Week 3: Integrating ArgoCD and CI/CD
+Day 15: ArgoCD Sync and Automation
+
+Create ArgoCD applications for your Helm charts.
+Configure automatic sync and self-healing.
+Test and validate ArgoCD deployments.
+Day 16: GitOps with ArgoCD
+
+Understand GitOps principles.
+Set up ArgoCD to watch your GitHub repository.
+Automate deployments through Git commits.
+Day 17: Advanced ArgoCD Configuration
+
+Manage multiple environments (staging, production) with ArgoCD.
+Configure ArgoCD RBAC for team access control.
+Explore ArgoCD application health checks and alerts.
+Day 18: CI/CD Pipeline for Applications
+
+Extend your GitHub Actions workflow to build and push Docker images.
+Automate Helm chart updates with new Docker images.
+Trigger ArgoCD sync on Helm chart updates.
+Day 19: Security and Compliance
+
+Implement AWS IAM roles and policies for least privilege.
+Use AWS Config and CloudTrail for monitoring and compliance.
+Integrate security scanning tools (e.g., Snyk, Trivy) in your CI/CD pipeline.
+Day 20: Monitoring and Logging
+
+Set up Prometheus and Grafana for monitoring EKS.
+Configure Elasticsearch, Fluentd, and Kibana (EFK) for logging.
+Implement alerts and dashboards for critical metrics.
+Day 21: Backup and Disaster Recovery
+
+Configure EBS volume snapshots for backups.
+Implement S3 bucket policies and lifecycle rules for data retention.
+Set up a basic disaster recovery plan.
+Week 4: Final Project and Review
+Day 22: Final Project Planning
+
+Outline the end-to-end project requirements.
+Define the project scope and deliverables.
+Set up a project plan and timeline.
+Day 23: Implementing VPC and EKS Automation
+
+Apply your Terraform modules to set up VPC and EKS.
+Validate and test the infrastructure setup.
+Document the setup process and configurations.
+Day 24: Application Deployment Automation
+
+Deploy your sample application using Helm and ArgoCD.
+Validate and test the deployment process.
+Document the application deployment process.
+Day 25: CI/CD Pipeline Implementation
+
+Finalize your GitHub Actions workflows.
+Integrate Docker image build, Helm chart update, and ArgoCD sync.
+Validate and test the entire CI/CD pipeline.
+Day 26: Security and Compliance Review
+
+Conduct a security audit of your infrastructure and pipeline.
+Implement any necessary changes based on the audit.
+Document security and compliance measures.
+Day 27: Monitoring and Logging Setup
+
+Finalize the monitoring and logging setup.
+Test alerts and dashboards.
+Document monitoring and logging configurations.
+Day 28: Backup and Disaster Recovery Testing
+
+Test backup and restore processes.
+Validate disaster recovery procedures.
+Document backup and disaster recovery plans.
+Day 29: Final Review and Testing
+
+Conduct a thorough review of the entire project.
+Perform end-to-end testing of infrastructure and CI/CD pipeline.
+Make any necessary adjustments and optimizations.
+Day 30: Project Documentation
+
+Prepare a detailed presentation of your project.
+Create comprehensive documentation for each component.
+Present your project to peers or mentors for feedback.
+
